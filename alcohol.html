@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALCOHOL</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="../HTML/images/LOGO.png"
+      type="image/x-icon"
+    />
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      nav {
+        height: 60px;
+        width: 100%;
+        background-color: brown;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        list-style: none;
+        cursor: pointer;
+        position: sticky;
+        top: 0;
+      }
+
+      #part {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20%;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .fa-sharp {
+        margin-left: 10%;
+      }
+
+      body {
+        background-image: url("../HTML/images/bar");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+      }
+      #cards {
+        position: relative;
+        top: 200px;
+      }
+
+      #menu h1 {
+        color: rgb(57, 21, 199);
+        font-size: 40px;
+        margin-top: 30vh;
+        margin-left: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      #cards {
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      #cardone {
+        height: 65vh;
+        width: 30vw;
+        /* border: 5px solid blue; */
+        background-image: url("../HTML/images/KAMIKAZE.jpeg");
+        background-repeat: no-repeat;
+        background-size: 30vw 32.5vh;
+        box-shadow: 10px 10px 10px black;
+      }
+      h1:hover{
+        transition: width 3s linear 0.5s;
+      }
+
+
+      #cardtwo {
+        height: 65vh;
+        width: 30vw;
+        /* border: 5px solid blue; */
+        background-image: url("../HTML/images/BEER.webp");
+        background-repeat: no-repeat;
+        background-size: 30vw 32.5vh;
+        box-shadow: 10px 10px 10px black;
+      }
+      #cardthree {
+        height: 65vh;
+        width: 30vw;
+        /* border: 5px solid blue; */
+        background-image: url("../HTML/images/SCOTCH.webp");
+        background-repeat: no-repeat;
+        background-size: 30vw 32.5vh;
+        box-shadow: 10px 10px 10px black;
+      }
+
+      #cardone h1 {
+        position: relative;
+        top: 30vh;
+        left: 8vw;
+      }
+      #cardone p {
+        position: relative;
+        top: 30vh;
+        font-weight: 900;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        text-align: justify;
+      }
+      #cardtwo h1 {
+        position: relative;
+        top: 30vh;
+        left: 8vw;
+      }
+      #cardtwo p {
+        position: relative;
+        top: 30vh;
+        font-weight: 900;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        text-align: justify;
+      }
+      #cardthree h1 {
+        position: relative;
+        top: 30vh;
+        left: 8vw;
+      }
+      #cardthree p {
+        position: relative;
+        top: 30vh;
+        font-weight: 900;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <i class="fa-solid fa-wine-glass fa-shake fa-2xl" style="color: #ffffff;">CHEERS</i>
+      
+      <div id="part">
+        <li>Home</li>
+        <li>Products</li>
+        <li>About Us</li>
+        <li>Help</li>
+      </div>
+    </nav>
+
+    <main id="menu">
+      <h1>
+        <hr>
+      </h1>
+    </main>
+
+    <section id="cards">
+      <div id="cardone">
+        <h1>KAMIKAZE</h1>
+        <p>
+            The Kamikaze is made of equal parts vodka, triple sec and lime juice. Garnish is typically a wedge or twist of lime. 
+        </p>
+      </div>
+      <div id="cardtwo">
+        <h1>BEER</h1>
+        <p>
+            An alcoholic beverage produced by extracting raw materials with water, boiling (usually with hops), and fermenting.
+        </p>
+      </div>
+      <div id="cardthree">
+        <h1>SCOTCH</h1>
+        <p>
+            All Scotch whisky was originally made from malted barley. Commercial distilleries began introducing whisky made from wheat and rye in the late 18th century.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
